@@ -1,0 +1,32 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace CityXtremeSport
+{
+    public partial class Inicio : Form
+    {
+        public Inicio()
+        {
+            InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Registro vent = new Registro();
+            vent.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            DatosAlumnos vent = new DatosAlumnos();
+            vent.Show();
+        }
+    }
+}
